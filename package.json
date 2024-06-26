@@ -1,0 +1,14 @@
+{
+    "scripts": {
+        "build": "node scripts/esbuild.mjs",
+        "zip": "node scripts/zipDist.mjs",
+        "buildzip": "pnpm run build && pnpm run zip"
+    },
+    "keywords": [],
+    "author": "Warren Halderman",
+    "license": "ISC",
+    "devDependencies": {
+        "archiver": "^7.0.1",
+        "esbuild": "^0.21.5"
+    }
+}
